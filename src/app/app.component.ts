@@ -11,7 +11,7 @@ export class AppComponent {
 
   constructor() {
     setTimeout(() => {
-      this.content = "<p>A paragraph!</p>"
+      this.content = "<app-alert message='Render dynamiclly'></app-alert>"
     }, 1000)
   }
 }
