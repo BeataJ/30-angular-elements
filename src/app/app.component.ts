@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { createCustomElement } from '@angular/elements';
 
 @Component({
   selector: 'app-root',
