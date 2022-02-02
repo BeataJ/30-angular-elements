@@ -7,5 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   // title = '30-angular-elements';
-  content = null;
+  content: any;
+
+  constructor() {
+    setTimeout(() => {
+      this.content = "<p>A paragraph!</p>"
+    }, 1000)
+  }
 }
